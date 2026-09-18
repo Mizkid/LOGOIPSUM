@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>logoipsum</title>
+    <link rel="icon" type="image/svg" href="./SRC/logos/Group-1.png">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cloudflare.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudfare.com/ajax/libs/font-awesome/6.7.2/csscall.min.css">
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="./SRC/logos/Profile Logo.svg" alt="Profile logo">
+        <button class="hamburger" id="hamburger">
+            =
+        </button>
+        <nav id="nav">
+            <a href="./ipsum.html">Home</a>
+            <a href="#features">Features</a>
+            <a href="#pricing">Pricing</a>
+            <a href="#blog">Blog</a>
+        </nav>
+        <button class="btn-header"> Get Started </button>
+    </header>
+    <!-- Section 1-->
+    <div class="Section-1-wrapper">
+        <div class="sec-1-data">
+            <h1 class="sec-1-text"> Grow your subscription business</h1>
+            <p class="sec-1-par">
+                Outcome-centered produts that reduce churn,
+                optimize pricing and grow your subscription
+                business end-to-end.
+            </p>
+            <div class="sec-1-bt-icon">
+                <button class="sec-1-btn"> Get Started</button>
+                <img class="arrow-down" src="./SRC/logos/Down Arrow.svg" alt="arrow down">
+            </div>
+        </div>
+        <img class="sec-1-img" src="./SRC/Assets/Content Image 01.png" alt="Boy skatting">
+    </div>
+    <!-- Logo Section -->
+    <div class="logo-section">
+        <img src="./SRC/logos/logo-1.svg" alt="logoipsum">
+        <img src="./SRC/logos/logo-2.svg" alt="logoipsum">
+        <img src="./SRC/logos/logo-3.svg" alt="logoipsum">
+        <img src="./SRC/logos/logo-4.svg" alt="logoipsum">
+        <img src="./SRC/logos/logo-5.svg" alt="logoipsum">
+    </div>
+    <!-- Section 2 -->
+    <div class="sec-2-wrapper">
+        <img class="sec2-img" src="./SRC/Assets/Content Image 02.png" alt="Boy holding pen">
+        <div class="sec-data">
+            <h3 class="sec-text"> Subscription index </h3>
+            <p class="sec-par"> A daily dataset to keep you up to
+                date on subscription market trends and
+                what's happening in your vertical.
+            </p>
+            <a href="" class="sec-link">Learn more </a>
+        </div>
+    </div>
+    <!-- Section 3-->
+    <div class="sec-3-wrapper">
+        <div class="sec-data">
+            <h3 class="sec-text">In-depth metrics </h3>
+            <p class="sec-par">Accurate, real-time reporting at your fingertips.
+                Getting data has never been easier.
+            </p>
+            <a href="" class="sec-link">Learn more </a>
+        </div>
+        <img src="./SRC/Assets/Content Image 03.png" alt="Boy looking phone">
+    </div>
+    <!-- Page Extra Features -->
+    <div class="extFeatures">
+        <div class="features-data">
+            <img class="img-1" src="./SRC/Assets/Card.png" alt="card">
+            <h3 class="feature-head benchmark">Benchmarks</h3>
+            <p class="feature-text">See how you stack up against comparable
+                companies in similar stages.
+            </p>
+        </div>
+        <div class="features-data">
+            <img class="img-2" src="./SRC/Assets/Calculator.png" alt="calculator">
+            <h3 class="feature-head pricing-audit">Pricing Audit</h3>
+            <p class="feature-text">Benchmark the health of your monetization and pricing strategy.
+            </p>
+        </div>
+        <div class="features-data">
+            <img class="img-3" src="./SRC/Assets/Camera.png" alt="camera">
+            <h3 class="feature-head Retention">Retention Audit</h3>
+            <p class="feature-text">Audit where revenue leakage exists and where you can increase retention.
+            </p>
+        </div>
+    </div>
+
+    <!-- Section 4-->
+    <div class="sec-4-wrapper">
+        <div class="first-data">
+            <h2 class="fdata-text">Get the right plan <br>  for future product.</h2>
+            <div class="switch">
+                <div class="yearly">Yearly</div>
+                <div class="monthly">Monthly</div>
+            </div>
+        </div>
+        <div class="second-data">
+            <div class="sec4-free">
+                <p id="one">Starter</p>
+                <h3 class="free">Free</h3>
+                <p class="sec-4-text">1 Website 5GB Hosting
+                    Limited Support</p>
+                <button class="sec-4-btn"> Get Started </button>
+            </div>
+            <div class="sec4-colored">
+                <p id="one">Premium</p>
+                <h3 class="pricing">$29<span>/month</span> </h3>
+                <p class="sec-4-coloredtext"> 10 Website 15GB Hosting Premium Support</p>
+                <button class="sec-4-btn2">Get Started </button>
+            </div>
+            <div class="sec4-free">
+                <p id="one">Enterprise</p>
+                <h3 class="pricing">$49<span>/month</span> </h3>
+                <p class="sec-4-text2">Unlimited Website 50GB Hosting Premium Support</p>
+                <button class="sec-4-btn">Get Started </button>
+            </div>
+        </div>
+
+    </div>
+    <script>
+
+        const hamburger = document.getElementById("hamburger");
+        const nav = document.getElementById("nav");
+
+        hamburger.onclick = function () {
+            nav.classList.toggle("active");
+        };
+
+
+    </script>
+
+</body>
+
+</html>
