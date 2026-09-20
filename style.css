@@ -176,6 +176,7 @@ nav a:hover {
   font: 700 17px;
   line-height: 100%;
   color: #5454d4;
+  text-decoration: none;
 }
 .sec-3-wrapper {
   display: flex;
@@ -401,6 +402,44 @@ span {
   line-height: 56px;
   text-align: center;
 }
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #69a193;
+    width: 100%;
+    padding: 20px 0;
+    height: 160px;
+  }
+  .footer-links{
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .footer-links a {
+    text-decoration: none;
+    cursor: pointer;
+  }
+  footer a:hover{
+    color: #5454d4;
+  }
+  .footer-links img{
+    width: 70%;
+  }
+  footer p,
+  footer h3{
+    color: white;
+    font-size:20px;
+    font-style: oblique;
+  }
+  footer h3{
+    letter-spacing: 5px;
+    font-size: 12px;
+  }
+
 /* Media Query  for mobile/tablet */
 @media screen and (max-width: 768px) {
   body {
@@ -423,9 +462,6 @@ span {
     background: #d4d4d8;
     padding: 0 0 0 15px;
   }
-  .logo {
-    /* width: 40%; */
-  }
   .hamburger {
     display: block;
     font-size: 30px;
@@ -434,6 +470,7 @@ span {
     cursor: pointer;
     position: absolute;
     right: 15px;
+    color: #000000;
   }
   .closeBtn{
     display: flex;
@@ -443,6 +480,7 @@ span {
     align-self: center;
     background: white;
     cursor: pointer;
+    color: #000000;
   }
   nav {
     width: 120px;
@@ -558,6 +596,7 @@ span {
     align-items: flex-start;
     width: 100%;
     height: 30px;
+    margin-top: 20px;
   }
   .logo-section img {
     width: 15%;
@@ -570,6 +609,7 @@ span {
     width: 100%;
     height: 450px;
     padding: 0 0 0 15px;
+    margin-top: 40px;
   }
   .sec2-img {
     width: 50%;
@@ -608,6 +648,7 @@ span {
     border: none;
     border-radius: 10px;
     padding: 5px;
+    text-decoration: none;
   }
   .sec-3-wrapper {
     display: flex;
@@ -616,7 +657,7 @@ span {
     align-items: start;
     width: 100%;
     height: 650px;
-    margin-top: 100px;
+    margin-top: 50px;
     padding: 0 0 0 15px;
   }
   .sec-3-wrapper .sec-data {
@@ -624,8 +665,8 @@ span {
   }
   .sec-3-wrapper img {
     width: 50%;
-    height: 300px;
-    margin-top: 40px;
+    height: 290px;
+    /* margin-top: 20px; */
     order: 1;
   }
   /*Extra features*/
@@ -638,7 +679,7 @@ span {
     width: 100%;
     margin-top: 0;
     margin-bottom: 30px;
-    padding: 0 0 0 10px;
+    padding: 0 10px;
   }
   .features-data {
     display: flex;
@@ -697,7 +738,7 @@ span {
     margin-top: 5rem;
     gap: 30px;
     background-color: #f0f0f5;
-    padding: 0 0 0 15px;
+    padding: 0 15px;
   }
   .first-data {
     display: flex;
