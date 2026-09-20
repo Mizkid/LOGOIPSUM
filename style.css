@@ -1,20 +1,25 @@
+*{
+  box-sizing: border-box;
+}
 body {
   width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   min-height: 100vh;
+  /* padding: 0px 50px; */
 }
 header {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  width: 1146px;
+  justify-content: center;
+  width: 100%;
   height: 80px;
+  gap: 280px;
 }
 .logo {
-  width: 199px;
+  /* width: 199px; */
   height: 39px;
 }
 .hamburger {
@@ -28,8 +33,8 @@ nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  gap: 10px;
-  width: 327px;
+  gap: 15px;
+  /* width: 327px; */
   height: 32px;
 }
 nav button {
@@ -44,7 +49,7 @@ a:hover {
   top: 60px;
 }
 .btn-header {
-  width: 211px;
+  /* width: 211px; */
   height: 60px;
   cursor: pointer;
   background-color: #ff7143;
@@ -52,7 +57,7 @@ a:hover {
   border-radius: 10px;
   color: white;
   align-items: center;
-  padding: 10px 25px;
+  padding: 8px 25px;
 }
 
 /* Section 1 */
@@ -61,46 +66,42 @@ a:hover {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  width: 1146px;
+  width: 80%;
   height: 644px;
-  margin-top: 85px;
+  margin-top: 55px;
 }
 .sec-1-data {
-  width: 459px;
+  /* width: 459px; */
   height: 461px;
   top: 282px;
   left: 184px;
 }
 .sec-1-text {
-  width: 462px;
-  height: 231px;
+  /* width: 462px; */
+  /* height: 231px; */
   font:
-    700 80px "DM Sans",
+    700 60px "DM Sans",
     sans-serif;
-  line-height: 77px;
   color: #19191b;
-  letter-spacing: -2.5px;
+  /* letter-spacing: -2.5px; */
 }
 .sec-1-par {
-  width: 459px;
-  height: 90px;
+  /* width: 459px; */
+  height: 60px;
   font: 400 20px;
   font-family: "Mulish", sans-serif;
-  line-height: 30px;
-  letter-spacing: -0.63px;
   color: #696871;
   top: 261px;
 }
 .sec-1-bt-icon {
   display: flex;
   align-items: center;
-  gap: 35px;
+  gap: 5px;
 }
 .sec-1-btn {
   width: 211px;
-  height: 60px;
+  height: 40px;
   border: none;
-  top: 401px;
   border-radius: 10px;
   background-color: #5454d4;
   color: white;
@@ -110,67 +111,55 @@ a:hover {
   cursor: pointer;
 }
 .arrow-down {
-  width: 21;
-  height: 22.5;
-  top: 419.75px;
-  left: 270.5px;
+  width: 60px;
+  height: 40px;
 }
 .arrow-down:hover {
   cursor: pointer;
 }
 
 .sec-1-img {
-  width: 610px;
-  height: 644px;
-  top: 190px;
-  left: 720px;
+  width: 510px;
+  height: 544px;
 }
 .logo-section {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
-  width: 1146px;
-  margin-top: 80px;
+  width:80%;
 }
 .sec-2-wrapper {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
-  width: 1146px;
-  height: 644px;
+  width: 80%;
+  /* height: 644px; */
   margin-top: 120px;
 }
 .sec2-img {
-  width: 348.5px;
-  height: 473px;
+  width: 300px;
+  height: 373px;
 }
 .sec-data {
   display: flex;
   flex-direction: column;
   align-items: start;
-  justify-content: space-evenly;
-  width: 556px;
-  height: 229px;
-  margin-top: 120px;
+  justify-content: space-around;
 }
 .sec-text {
-  width: 556px;
-  height: 57px;
   font:
     700 50px "DM Sans",
     sans-serif;
-  line-height: 57px;
   color: #19191b;
-  letter-spacing: -1.56px;
+
 }
 .sec-par {
   width: 459px;
   height: 90px;
   font-family: "Mulish", sans-serif;
   font: 400 20px;
-  line-height: 30px;
   color: #696871;
 }
 .sec-link {
@@ -187,12 +176,12 @@ a:hover {
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
-  width: 1146px;
-  height: 644px;
+  width: 80%;
+  margin-top: 60px;
 }
 .sec-3-wrapper img {
-  width: 348.5px;
-  height: 473px;
+   width: 300px;
+  height: 373px;
   order: 2;
 }
 .sec-3-wrapper .sec-data {
@@ -203,67 +192,40 @@ a:hover {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: start;
-  width: 1146px;
-  height: 182px;
+  align-items: center;
+  width: 80%;
+  margin-top: 140px;
 }
 .features-data {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  width: 330x;
+  /* width: 430x; */
 }
 .img-1 {
-  width: 114px;
-  height: 64px;
-  top: 2320px;
-  left: 294px;
+  width: 70px;
+  /* height: 64px; */
 }
 .img-2 {
-  width: 91;
-  height: 72;
-  top: 2312px;
-  left: 689px;
+  width: 70px;
 }
 .img-3 {
-  width: 118;
-  height: 63;
-  top: 2321px;
-  left: 1043px;
+  width: 80px;
 }
 .feature-head {
   font-family: "DM Sans", sans-serif;
   font: 700 24px;
-  line-height: 36px;
   color: #19191b;
   align-items: center;
 }
-.benchmark {
-  width: 138;
-  height: 36;
-  top: 2404px;
-  left: 270px;
-}
-.pricing-audit {
-  width: 140;
-  height: 36;
-  top: 2404px;
-  left: 649.5px;
-}
-.Rentention {
-  width: 172;
-  height: 36;
-  top: 2404px;
-  left: 1015.5px;
-}
 .feature-text {
   width: 307px;
-  height: 48px;
   line-height: 24px;
   font-family: "Mullish", sans-serif;
   font: 400 16px;
   color: #696871;
+  margin-top: 0;
 }
 /* Section 4 */
 .sec-4-wrapper {
@@ -271,26 +233,26 @@ a:hover {
   flex-direction: column;
   justify-content: space-between;
   align-items: start;
-  width: 1146px;
-  height: 650px;
+  width: 80%;
+  height: 950px;
   margin-top: 100px;
   gap: 60px;
+  padding-bottom: 100px;
 }
 .first-data {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  width: 1146px;
+  width: 100%;
 }
 .fdata-text {
   width: 523px;
   height: 140px;
   font-family: " DM Sans", sans-serif;
   font-weight: 700;
-  font-size: 60px;
-  line-height: 70px;
-  letter-spacing: -1.88px;
+  font-size: 50px;
+  line-height: 55px;
 }
 .switch {
   display: flex;
@@ -299,9 +261,8 @@ a:hover {
   align-items: center;
   width: 346px;
   height: 65px;
-  margin-top: 28px;
   border: none;
-  border-radius: 10px;
+  border-radius: 15px;
   background-color: #f7f7fb;
 }
 .yearly {
@@ -332,7 +293,7 @@ a:hover {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  width: 1146px;
+  width: 100%;
   height: 473px;
   gap: 10px;
   padding-bottom: 10rem;
@@ -344,13 +305,16 @@ a:hover {
   align-items: center;
   width: 330px;
   height: 530px;
-  top: 2896px;
-  left: 185px;
   border-radius: 10px;
   border: none;
   background-color: #f8f8f8;
+  transition: all 0.3s ease;
 }
-.sec4-colored {
+.sec4-free:hover{
+background-color:#ff7143 ;
+transform: scale(1.12);
+}
+/* .sec4-colored {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -363,7 +327,7 @@ a:hover {
   border: none;
   color: white;
   background-color: #ff7143;
-}
+} */
 .sec-4-text {
   width: 118px;
   height: 150px;
@@ -384,21 +348,9 @@ a:hover {
   text-align: center;
   line-height: 50px;
 }
-.sec-4-coloredtext {
-  width: 131px;
-  height: 150px;
-  top: 184px;
-  left: 119px;
-  font-family: "Mulish", sans-serif;
-  font: 400 17px;
-  text-align: center;
-  line-height: 50px;
-}
 #one {
   width: 54px;
   height: 28px;
-  top: 34px;
-  left: 138.5px;
   font-family: "DM Sans", sans-serif;
   font-weight: 400;
   font-size: 18px;
@@ -408,8 +360,6 @@ a:hover {
 .free {
   width: 125px;
   height: 56px;
-  top: 84px;
-  left: 103px;
   opacity: 1;
   font-family: DM Sans;
   font-weight: 700;
@@ -420,8 +370,6 @@ a:hover {
 .sec-4-btn {
   width: 285px;
   height: 60px;
-  top: 354px;
-  left: 24px;
   border: 1px solid #eae9f2;
   border-radius: 10px;
   background-color: white;
@@ -432,10 +380,8 @@ a:hover {
   color: #5454d4;
 }
 .sec-4-btn2 {
-  width: 305px;
+   width: 285px;
   height: 60px;
-  top: 370px;
-  left: 37px;
   border: none;
   border-radius: 10px;
   background-color: #9f3919;
@@ -464,25 +410,30 @@ span {
   text-align: center;
 }
 /* Media Query Point */
-@media screen and (max-width: 500px) {
+@media (max-width: 380px) {
+  *{
+    box-sizing: border-box;
+  }
   body {
-    width: 500px;
+    width:100%;
     min-height: 100vh;
-    display: block;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 0px 0px 0px 20px;
+    padding: 0;
+    margin: 0;
   }
   header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 420px;
+    width: 100%;
     position: relative;
   }
   .logo {
-    width: 180px;
+    width:40%;
   }
   .hamburger {
     display: block;
@@ -490,21 +441,34 @@ span {
     background: none;
     border: none;
     cursor: pointer;
+    position: absolute;
+    right: 15px;
   }
   nav {
-    width: 30px;
+    width: 90px;
+    height: 150px;
     display: none;
     position: absolute;
     top: 70%;
-    right: 1px;
+    right: 15px;
     flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10;
+    padding: 0;
+    
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border: 1px solid  rgba(255, 255, 255, 0.3) ;
+    border-radius: 15px;
+    box-shadow: 0 8px 32px  rgba(0, 0, 0, 0.2);;
   }
   #nav.active {
     display: flex;
   }
   nav a {
-    width: 100%;
-    padding: 5px 0px;
+    /* padding: 5px 0px; */
     text-align: left;
     color: #696871;
     transition: 0.3s ease;
@@ -525,12 +489,12 @@ span {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    width: 350px;
+    width: 80%;
     height: 650px;
     margin: 0;
   }
   .sec-1-data {
-    width: 350px;
+    width: 320px;
     height: 350px;
   }
   .sec-1-text {
@@ -539,22 +503,22 @@ span {
     font:
       700 40px "DM Sans",
       sans-serif;
-    line-height: 45px;
+    line-height: 40px;
     color: #19191b;
     letter-spacing: 2px;
   }
   .sec-1-par {
-    width: 350px;
+    width: 300px;
     height: 90px;
     font: 400 20px;
     font-family: "Mulish", sans-serif;
-    line-height: 30px;
+    line-height: 25px;
     color: #696871;
   }
   .sec-1-bt-icon {
     display: flex;
     align-items: center;
-    gap: 15px;
+    gap: 5px;
   }
   .sec-1-btn {
     width: 100px;
@@ -575,7 +539,7 @@ span {
     cursor: pointer;
   }
   .sec-1-img {
-    width: 350px;
+    width: 320px;
     height: 300px;
   }
   .logo-section {
@@ -583,41 +547,42 @@ span {
     flex-direction: row;
     justify-content: space-evenly;
     align-items: flex-start;
-    width: 420px;
+    width: 100%;
     height: 30px;
   }
   .logo-section img {
-    width: 50px;
+    width: 15%;
   }
   .sec-2-wrapper {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 350px;
+    width: 80%;
     height: 450px;
+
   }
   .sec2-img {
-    width: 300px;
+    width: 280px;
     height: 300px;
   }
   .sec-data {
     display: flex;
     flex-direction: column;
-    width: 350px;
+    width: 320px;
     margin-top: 0px;
   }
   .sec-text {
-    width: 350px;
-    height: 20px;
+    width: 280px;
+    height: 40px;
     font:
       700 32px "DM Sans",
       sans-serif;
     color: #19191b;
   }
   .sec-par {
-    width: 350px;
-    height: 80px;
+    width: 300px;
+    height: 85px;
     font-family: "Mulish", sans-serif;
     font: 400 20px;
     line-height: 30px;
@@ -625,7 +590,7 @@ span {
   }
   .sec-link {
     width: 80px;
-    height: 15px;
+    height: 22px;
     text-align: center;
     font-family: "DM Sans", sans-serif;
     font-size: 12px;
@@ -633,21 +598,21 @@ span {
     background-color: navy;
     border: none;
     border-radius: 10px;
-    padding: 5px 5px 3px 5px;
+    padding: 5px;
   }
   .sec-3-wrapper {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 350px;
+    width: 80%;
     height: 650px;
   }
   .sec-3-wrapper .sec-data {
     order: 2;
   }
   .sec-3-wrapper img {
-    width: 300px;
+    width: 280px;
     height: 300px;
     margin-top: 40px;
     order: 1;
@@ -656,18 +621,21 @@ span {
   .extFeatures {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    width: 430px;
-    height: 35px;
-    margin-top: 70px;
+    gap: 20px;
+    width: 100%;
+    margin-top:0;
+    margin-bottom: 30px;
   }
   .features-data {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 160px;
+    justify-content: space-between;
+    align-items: left;
+    width: 30%;
+    height: 60px;
+    gap: 15px;
   }
   .img-1 {
     width: 30px;
@@ -675,7 +643,7 @@ span {
   }
   .img-2 {
     width: 30px;
-    height: 30px;
+    /* height: 30px; */
   }
   .img-3 {
     width: 30px;
@@ -701,7 +669,7 @@ span {
     width: 90px;
   }
   .feature-text {
-    width: 120px;
+    width: 100px;
     font-family: "Mullish", sans-serif;
     font-size: 11px;
     font-weight: 500;
@@ -716,9 +684,9 @@ span {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 15px;
-    width: 430px;
-    height: 430px;
+    padding: 0px 10px;
+    width: 100%;
+    height: 400px;
     margin-top: 5rem;
     gap: 30px;
     background-color: #f0f0f5;
@@ -728,14 +696,15 @@ span {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 430px;
+    width: 100%;
+    /* height: 40px; */
   }
   .fdata-text {
-    width: 300px;
+    width: 70%;
     height: 20px;
     font-family: " DM Sans", sans-serif;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 30px;
   }
   .switch {
@@ -743,7 +712,7 @@ span {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    width: 120px;
+    width: 30%;
     height: 20px;
     border: none;
     border-radius: 25px;
@@ -751,7 +720,7 @@ span {
   .yearly {
     height: 20px;
     font-family: "DM Sans", sans-serif;
-    font-size: 12px;
+    font-size: 10px;
     background-color: #5454d4;
     color: #ffffff;
     text-align: center;
@@ -762,7 +731,7 @@ span {
   }
   .monthly {
     font-family: "DM Sans", sans-serif;
-    font-size: 12px;
+    font-size: 10px;
     color: #19191b;
     background: #f7f7fb07;
     height: 20px;
@@ -773,61 +742,33 @@ span {
   }
   .second-data {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
-    width: 430px;
+    width: 90%;
     height: 370px;
     gap: 10px;
-    /* padding-bottom: 10rem; */
+    margin-top: 40px;
   }
   .sec4-free {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 135px;
+    width: 30%;
     height: 250px;
     border-radius: 10px;
     border: none;
     background-color: #f8f8f8;
   }
-  .sec4-colored {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 135px;
-    height: 290px;
-    border-radius: 10px;
-    border: none;
-    color: white;
-    background-color: #ff7143;
-  }
   .sec-4-text {
-    width: px;
-    height: 60px;
+    width: 55%;
+    height: 100px;
     font-family: "Mulish", sans-serif;
     font-size: 12px;
     text-align: center;
     line-height: 15px;
-  }
-  .sec-4-text2 {
-    width: 100px;
-    height: 60px;
-    font-family: "Mulish", sans-serif;
-    font-size: 12px;
-    text-align: center;
-    line-height: 15px;
-  }
-  .sec-4-coloredtext {
-    width: 100px;
-    height: 70px;
-    font-family: "Mulish", sans-serif;
-    font-size: 12px;
-    text-align: center;
-    line-height: 20px;
   }
   #one {
-    width: 54px;
+    width: 75%;
     font-family: "DM Sans", sans-serif;
     font-weight: 400;
     font-size: 14px;
@@ -836,14 +777,14 @@ span {
   }
   .free {
     margin: 0;
-    width: 125px;
+    /* width: 125px; */
     font-family: "DM Sans", sans-serif;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 26px;
     text-align: center;
   }
   .sec-4-btn {
-    width: 85px;
+    width: 90%;
     height: 20px;
     border: 1px solid #eae9f2;
     border-radius: 10px;
@@ -855,7 +796,7 @@ span {
     color: #5454d4;
   }
   .sec-4-btn2 {
-    width: 90px;
+    width:90%;
     height: 20px;
     border: none;
     border-radius: 10px;
@@ -868,16 +809,16 @@ span {
   }
   .pricing {
     margin: 0;
-    width: 125px;
+    width: 100%;
     font-family: "DM Sans", sans-serif;
     font-weight: 700;
-    font-size: 30px;
+    font-size:26px;
     text-align: center;
   }
   span {
-    font-family: DM Sans;
-    font-weight: 700;
-    font-size: 15px;
+    font-family:" DM Sans" sans-serif;
+    font-weight: 500;
+    font-size: 11px;
     text-align: center;
   }
 }
