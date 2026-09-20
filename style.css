@@ -410,10 +410,7 @@ span {
   text-align: center;
 }
 /* Media Query  for mobile/tablet */
-@media (max-width: 768px) {
-  *{
-    box-sizing: border-box;
-  }
+@media screen and (max-width: 768px) {
   body {
     width:100%;
     min-height: 100vh;
@@ -423,6 +420,7 @@ span {
     align-items: center;
     padding: 0;
     margin: 0;
+    background-color: red;
   }
   header {
     display: flex;
