@@ -409,8 +409,8 @@ span {
   line-height: 56px;
   text-align: center;
 }
-/* Media Query Point */
-@media (max-width: 380px) {
+/* Media Query  for mobile/tablet */
+@media (max-width: 768px) {
   *{
     box-sizing: border-box;
   }
